@@ -1,21 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".SearchFragment">
+    android:orientation="vertical">
 
-    <androidx.appcompat.widget.SearchView
+    <SearchView
         android:id="@+id/searchView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:iconifiedByDefault="false"
-        android:queryHint="Search"
-        android:textColor="#FFFFFF"
-        android:background="@drawable/serch_shape"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:queryHint="Search..." />
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_4"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_2"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_5"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_11"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iTuns5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_3"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/xbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_7"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/xbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_8"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/xbox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_9"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/xbox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_10"
+        android:visibility="gone" />
+
+
+
+</LinearLayout>
